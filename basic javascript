@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        /*  this is how we can use if and if else
+
+                                                                                                                                                                                                                                                                       let marks = prompt("Enter your marks");
+                                                                                                                                                                                                                                                                        if (marks <= 30) {
+                                                                                                                                                                                                                                                                            console.log("fail");
+                                                                                                                                                                                                                                                                        } else if (marks > 31 && marks < 50) {
+                                                                                                                                                                                                                                                                            console.log("pass with 2nd class");
+                                                                                                                                                                                                                                                                        } else if (marks > 51 && marks < 60) {
+                                                                                                                                                                                                                                                                            console.log("pass with 1st class");
+                                                                                                                                                                                                                                                                        } else if (marks > 61 && marks < 80) {
+                                                                                                                                                                                                                                                                            console.log("pass with 3rd class");
+                                                                                                                                                                                                                                                                        } else if (marks > 81 && marks < 100) {
+                                                                                                                                                                                                                                                                            console.log("pass with 4th class");
+                                                                                                                                                                                                                                                                        } else {
+                                                                                                                                                                                                                                                                            console.log("Invalid marks");
+                                                                                                                                                                                                                                                                        }*/
+        //<ternary operator>//
+        //let marks = prompt("Enter your marks");
+        //marks <= 30 ? console.log("fail") :
+        //marks > 31 && marks < 50 ? console.log("pass with 2nd class") :
+        // temperature > 40 ? console.log("hot") : console.log("noraml");//   let age = 19;
+
+
+
+
+        /*  taking descion with the help of if statment
+        const age = 14;
+        if (age >= 18) {
+            console.log(" ohh your talking about the great indsutrealist asim ");
+        } else {
+            console.log("we are sorry ");
+        }*/
+
+
+
+
+        // const marks = 12;
+        // const year = 18 - marks;
+
+
+        // marks >= 18 ? console.log("you can drive") : console.log("sorry y0u are not allowed untill"
+
+        //     +
+        //     year +
+
+
+        //     "to drive ");
+
+
+        let num = prompt("enter first number");
+        let num2 = prompt("enter second number");
+        if (num > num2) {
+            console.log("first number is greater then second");
+
+
+        } else if (num2 > num) {
+            console.log("second number is greater than first one");
+        }
+    </script>
+</body>
+
+</html>
