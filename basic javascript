@@ -68,6 +68,23 @@
         } else if (num2 > num) {
             console.log("second number is greater than first one");
         }
+           
+           
+           
+           
+            // simple tip calculater 
+        let bils = 230;
+        let tip = bils <= 300 && bils >= 50 ? 0.05 : bils <= 200 && bils >= 100 ? 0.1 : bils <= 100 && bils >= 50 ? 0.15 : 0.2;
+        let tipAmount = console.log("the bill was " + bils + " and the tip is " + tip * bils);
+        if (bils<=300 && bils>=50) {
+            console.log("the bill was " + bils + " and the tip is " + tip * bils);
+        } else if (bils<=200 && bils>=100) {
+            console.log("the bill was " + bils + " and the tip is " + tip * bils);
+        } else if (bils<=100 && bils>=50) {
+            console.log("the bill was " + bils + " and the tip is " + tip * bils);
+        } else {
+            console.log("the bill was " + bils + " and the tip is " + tip * bils);
+        }
     </script>
 </body>
 
